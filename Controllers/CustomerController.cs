@@ -10,12 +10,14 @@ namespace TestApp1.Controllers
 {
     public class NewContactInfoRequest
     {
+        public int? Id { get; set; }
         public string ContactType { get; set; }
         public string? ContactEmail { get; set; }
         public string? ContactNumber { get; set; }
     }
     public class NewAddressInfoRequest
     {
+        public int? Id { get; set; }
         public string AddressType { get; set; }
         public string AddressLine1 { get; set; }
         public String? AddressLine2 { get; set; }
@@ -27,6 +29,7 @@ namespace TestApp1.Controllers
     }
     public class NewMemberShipInfoRequest
     {
+        public int? Id { get; set; }
         public string MembershipType { get; set; }
         public string? BillingFrequency { get; set; }
         public decimal MembershipPrice { get; set; }
@@ -37,6 +40,7 @@ namespace TestApp1.Controllers
 
     public class NewCustomerRequest
     {
+        public int? id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public String Email { get; set; }
@@ -79,6 +83,18 @@ namespace TestApp1.Controllers
 
               return Json(new { message = $"{customer.firstName} {customer.lastName} added to list" });
           //  return Request.CreateResponse(HttpStatusCode.OK, customer, Configuration.Formatters.JsonFormatter);
+
+        }
+
+        [HttpPost]
+        [EnableCors("Policy1")]
+        public IActionResult UpdateCustomer(NewCustomerRequest customer)
+        {
+
+            _customerService.Update(customer);
+
+            return Json(new { message = $"{customer.firstName} {customer.lastName} updated successfully" });
+            //  return Request.CreateResponse(HttpStatusCode.OK, customer, Configuration.Formatters.JsonFormatter);
 
         }
     }
