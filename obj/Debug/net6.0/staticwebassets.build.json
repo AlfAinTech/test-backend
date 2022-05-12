@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ScFALvLyCI7gNd6EYvBEeODDq9EYSQzTRSBEXOAXdM4=",
+  "Hash": "fpC0WlAuKDtW8F4m6jvdP/qhXmp6vPF9qybLke5JHrM=",
   "Source": "TestApp1",
   "BasePath": "_content/TestApp1",
   "Mode": "Default",
@@ -16,40 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TestApp1.styles.css",
-      "SourceId": "TestApp1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
-      "BasePath": "_content/TestApp1",
-      "RelativePath": "TestApp1.styles.css",
-      "AssetKind": "All",
-      "AssetMode": "CurrentProject",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ApplicationBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\bundle\\TestApp1.styles.css"
-    },
-    {
-      "Identity": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TestApp1.bundle.scp.css",
-      "SourceId": "TestApp1",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
-      "BasePath": "_content/TestApp1",
-      "RelativePath": "TestApp1.bundle.scp.css",
-      "AssetKind": "All",
-      "AssetMode": "Reference",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "ScopedCss",
-      "AssetTraitValue": "ProjectBundle",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\TestApp1.bundle.scp.css"
-    },
     {
       "Identity": "C:\\Users\\Dell\\Desktop\\TestProject\\TestApp1\\wwwroot\\css\\site.css",
       "SourceId": "TestApp1",
